@@ -1,4 +1,4 @@
-function [L,U,P] = mylu(A)
+function [L,U,P] = mylu1b(A)
 n = size(A,1);
 P = zeros(1,n);
 
